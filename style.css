@@ -205,6 +205,7 @@ object-position: center;
 .container2 p{
     text-align: center ;
     padding: 10px;
+    font-family: cursive;
 }
 .container3{
     height: 500px;
@@ -233,6 +234,7 @@ object-position: center;
 .container3 p{
     text-align: center;
     padding: 10px;
+    font-family: cursive;
 }
 
 
