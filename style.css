@@ -10,7 +10,7 @@ html{
 }
 header{
     backdrop-filter: blur(10px);
-    background-color: lightblue;
+    background-color: rgba(135, 207, 235, 0.562);
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -59,7 +59,7 @@ text-decoration: underline;
    position: relative;
    background-color: white;
 }
-.home::before{
+/* .home::before{
     content: '';
     position: absolute;
     top:0;
@@ -67,7 +67,7 @@ text-decoration: underline;
     width: 100%;
     height: 100%;
     
-} 
+}  */
 
 .img img{
 position: absolute;
@@ -95,11 +95,14 @@ object-position: center;
     background-color: skyblue;
     padding: 10px;
     border-radius: 10px;
-    color: black;
+    color: white;
     text-decoration: none;
     margin-left: 280px;
+}.hero a:hover{
+    color: black;
+    background-color: skyblue;
+    transition-duration: 300ms;
 }
-
 .DALEM{
     background-color: skyblue;
     height: 900px;
@@ -107,7 +110,7 @@ object-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 80px;
 
 }
 .DALEM img{
@@ -115,14 +118,125 @@ object-position: center;
     border-radius: 90px;  
     
 }
+.DALEM h1{
+    color: white;
+    font-family: cursive;
+    margin-top: 90px;
+}
+.DALEM p{
+    color: white;
+    margin-top: 20px;
+    font-family: cursive;
+    margin-top: 20px;
+}
 .PARA{
     margin-bottom: 400px;
     margin-left: 150px;
     
 }
-.container{
-    height: 300px;
+.tulisan h1{
+    color: skyblue;
+    font-family: cursive;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
 }
+.container10{
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    object-position: center;
+    align-items: center;
+}
+.container{
+    height: 500px;
+    width: 300px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+     display: inline-block;
+}
+.container img{
+  width:300PX;
+  height: 300px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  
+}
+.container h1{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    color: orange;
+    font-family: cursive;
+}
+.container p{
+    text-align: center ;
+    padding: 10px;
+}
+.container2{
+    height: 500px;
+    width: 300px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+    position: relative;
+  display: inline-block;
+}
+.container2 img{
+  width:300PX;
+  height: 300px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  
+}
+.container2 h1{
+    font-size: 25px;
+    font-family: cursive;
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+}
+.container2 p{
+    text-align: center ;
+    padding: 10px;
+}
+.container3{
+    height: 500px;
+    width: 300px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+    position: relative;
+  display: inline-block;
+}
+.container3 img{
+  width:300PX;
+  height: 300px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  
+}
+.container3 h1{
+    font-size: 25px;
+    font-family: cursive;
+    text-align: center;
+    margin-top: 20px;
+    color: red;
+}
+.container3 p{
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
 footer{
     background-color: black;
     color: white;
